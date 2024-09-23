@@ -6,6 +6,15 @@
     <title>Ficha</title>
 </head>
 <body>
-    hola soy ficha
+    Configurar php para que el entorno de ejecucion sea desarrollo y poder ver los mensajes de error.
+<?= "hola" ?>
+    <p> Este es el resultado del formulario </p>
+    <?= 24 ?>
+    <?php
+
+   $z = "12hola" + "24pepe";
+       var_dump($z);
+    
+    ?>
 </body>
 </html>
