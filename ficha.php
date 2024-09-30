@@ -6,14 +6,10 @@
     <title>Ficha</title>
 </head>
 <body>
-    Configurar php para que el entorno de ejecucion sea desarrollo y poder ver los mensajes de error.
-<?= "hola" ?>
-    <p> Este es el resultado del formulario </p>
-    <?= 24 ?>
-    <?php
  
+<?php
 
- /*isset(); si existe
+ /* isset(); si existe
  is_null(); si es null
  empty();  si esta vacio
  < <=  > >= <=> == ===
@@ -27,21 +23,30 @@ funciones mb ( multibyte) para manipulacio de caracteres poque no cuenta byte lo
 $x[i] => mb_substr($x,i,1);
 arrays 
 arrays numericos
-arrays asocitativos
-
-
-*/
+arrays asocitativos */
+?>
+ <?php
 $a = ['a', 'b', 'c', 'd', 'e', 'f',];
     echo $a[2];
+    
+    
+    
 $b = ["gato" => "cat", "perro" => "dog"];
 
 echo $b["gato"];
 
+
 //añadir
 
 $b["caballo"] = "horse";
+echo $b["caballo"];
 
-//eliminar un elemento
+
+?>
+<?php
+/*
+
+eliminar un elemento
 unset($a["perro"]);
     
 // modificar un elemento
@@ -52,7 +57,7 @@ $a["perro"]= "hound";
 //añade por el final
 
 $c = [1, 2];
-$c[] = 5;
+$c[] = 5;*/
 
 //variables superglobales o arrays superglobales (es lo mismo)  $_GET  $_POST recoger datos del formulario mediante post y get
     ?>

@@ -1,0 +1,13 @@
+Crear un arrays con varios elementos sin posicion.
+
+$a = ['a', 'b', 'c', 'd', 'e', 'f',];
+    echo $a[2]; devuelve el elemento en posicion 2 (c)
+
+Crear un arrays con posicion y elementos
+
+$b = ["gato" => "cat", "perro" => "dog"];
+echo $b["gato"];   devuelve el valor cat que esta dentro de gato.
+
+meter un elemento dentro del arrays
+
+$b["caballo"] = "horse";
