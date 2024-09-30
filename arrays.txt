@@ -11,3 +11,5 @@ echo $b["gato"];   devuelve el valor cat que esta dentro de gato.
 meter un elemento dentro del arrays
 
 $b["caballo"] = "horse";
+
+in_array funcion que comprueba si hay un dato que le pasamo esta dentro del arrays
