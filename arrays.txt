@@ -13,3 +13,46 @@ meter un elemento dentro del arrays
 $b["caballo"] = "horse";
 
 in_array funcion que comprueba si hay un dato que le pasamo esta dentro del arrays
+
+
+orientacion a objetos;
+
+objeto datetime;
+
+las fecha tienen metodos
+datetime y datetimeinmutable.
+
+$x = new datetime();
+$y = $x;
+dos variables apuntan al mismo objeto.
+si $x apunta a otro objeto $y sigue apuntando al antiguo.
+
+$z=&$x;
+la variable $z apunta al mismo objeto auque $x apunte a otro objeto.son dos variables que van apuntar al mismo objeto
+
+$x==$y   igualdad    compara 
+$x===$y  identidad  compara la referencia
+
+propiedades  $x->  para accder a las propiedades
+metodos   $x->   para acceder a los metodos
+
+resolucion de ambito  ::
+
+acceder a una constante atraves de la clase
+Clase::constante
+Datetime::ATOM  
+
+crear un objeto de la zona horaria
+$d->setTimeZone(new DateTimeZone("Europe/Madrid"));
+
+metodo format : convierte el objeto en cadena de la forma que queramos.
+$d->format("d-m-Y H:i:s")
+
+para crear una constante utilizamos define("NOMBRE", "valor");
+
+CODIGO DEL LIBRO
+CODIGO DEL LECTOR
+PRESTAMO A 30 DIAS
+
+
+
